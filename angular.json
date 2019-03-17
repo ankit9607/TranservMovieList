@@ -136,5 +136,10 @@
       }
     }
   },
-  "defaultProject": "TranservMovieList"
+  "defaultProject": "TranservMovieList",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

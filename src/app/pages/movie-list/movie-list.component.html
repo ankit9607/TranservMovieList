@@ -1,0 +1,5 @@
+<p *ngFor="let movie of movies; index as ind" >
+  <a [routerLink]="['/movieDetail/', ind]">
+    <app-movie-card [movie]="movie"></app-movie-card>
+  </a>
+</p>
